@@ -1,0 +1,3717 @@
+@media (max-width: 768px) {
+
+   
+
+
+    .container{
+
+        width: 650px;
+        margin: auto;
+    }
+
+
+    .overlays {
+        height: 10px;
+        background: rgb(0, 0, 0, .5);
+        padding: 340px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 767px;
+    }
+
+
+    #header-part {
+        background: rgb(91, 89, 89);
+        padding: 34px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 767px;
+        background: transparent;
+    }
+
+
+    #header-part .logo img {
+        height: 50px;
+        width: 300px;
+        margin-top: 30px;
+        /* margin-left: 20px; */
+    }
+
+
+
+    #header-part .menu  ul li{
+
+        display: none;
+    }
+
+    #header-part .menu .menuitem ul {
+        margin-right: 190px;
+    }
+
+    #header-part .menu .phone {
+        margin-top: -31px;
+        margin-right: 54px;
+        display: none;
+    }
+
+
+    #header-part .menu .mobile-menu span {
+        font-size: 3rem;
+        float: right;
+        margin-top: 22px;
+        color: white;
+        display: none;
+    }
+
+
+    #header-part .menu .menuitem ul li a {
+        color: white;
+        font-size: 13px;
+        transition: .4s;
+        display: none;
+    }
+
+
+
+/* mobile menu start */
+
+
+#header-part .menu .mobile-menu{
+
+    display: block;
+}
+    
+#header-part .menu .mobile-menu span {
+    font-size: 4rem;
+    float: right;
+    margin-top: 23px;
+    color: white;
+    display: block;
+}
+
+
+#header-part .menu .mobile-menu span:hover{
+
+    
+    cursor: pointer;
+}
+
+
+#header-part .menu .mobile-menu .overlay{
+
+    height: 69rem;
+     width: 51.4rem;
+    position: fixed;
+    top: 14rem;
+    left: 0;
+    background: #222;
+    transition: .5s;
+    width: 0;
+    z-index: 1000;
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+ 
+#header-part .menu .mobile-menu .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+
+#header-part .menu .mobile-menu .overlay-content a{
+
+
+    text-decoration: none;
+    display: block;
+}
+
+
+#header-part .menu .mobile-menu .overlay-content a {
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-family: 'Outfit', sans-serif;
+    z-index: 10000;
+
+
+}
+
+
+
+
+#header-part .menu .mobile-menu .overlay .closebtn {
+    position: absolute;
+    top: 1.3rem;
+    font-size: 8rem;
+    color: #fff;
+    right: 6.5rem;
+}
+
+/* mobile menu end */
+
+
+
+
+#slider-image {
+
+     width: 51.4rem;
+    height: 129rem;
+}
+
+#slider-image .sliderimg img{
+
+    /* height: 128rem; */
+    width: 100%; /* Adjusts to the container's width */
+    height: 127rem; /* Adjusts to the container's height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    object-position: center; 
+    
+}
+
+
+.overlays {
+     width: 51.4rem;
+    height: 10px;
+    background: rgb(0, 0, 0, .5);
+    padding: 63rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.overlays {
+         width: 51.4rem;
+        height: 72rem;
+        background: rgb(0, 0, 0, .5);
+        padding: 442px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    #slider-image .desc {
+        margin-top: 45rem;
+        margin-left: 2rem;
+    }
+
+    #slider-image .desc span{
+
+        font-size: 2.3rem;
+        letter-spacing: 12px;
+    }
+
+
+    #slider-image .desc p {
+
+        font-size: 2.4rem;
+    }
+
+    #slider-image .desc p span {
+
+        letter-spacing: normal;
+        font-weight: bolder;
+        font-size: 4rem;
+    }
+
+
+   #slider-image .desc .left {
+         background: transparent;
+        border: 1px solid red;
+        color: #fff;
+        transition: .4s;
+        font-size: 2rem;
+        padding: 32px 56px;
+        border-radius: 114px;
+        margin-top: 80px;
+    }
+    
+   #slider-image .desc .rit {
+        background: transparent;
+        border: 1px solid red;
+        color: #fff;
+        transition: .4s;
+        font-size: 2rem;
+        padding: 29px 50px;
+        border-radius: 114px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    #rent-part .details_img{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -46px;
+    }
+
+
+    #rent-part {
+        height: 129rem;
+        padding: 15rem 0;
+        margin-top: -31px;
+         width: 51.4rem;
+    }
+
+
+    #rent-part .details_img .details span {
+        color: red;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        letter-spacing: 20px;
+    }
+    
+
+    #rent-part .details_img .details h2 {
+        color: #000;
+        font-family: 'Outfit', sans-serif;
+        font-size: 85px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        width: 530px;
+    }
+
+
+
+    #rent-part .details_img .details h2 span {
+        color: red;
+        font-family: 'Outfit', sans-serif;
+        font-size: 87px;
+        letter-spacing: normal;
+        line-height: 45px;
+    }
+    
+    
+    #rent-part .details_img .details p {
+        color: #999;
+        font-family: 'Outfit', sans-serif;
+        font-size: 33px;
+        width: 641px;
+        letter-spacing: 0.9px;
+        line-height: 68px;
+        margin-top: 70px;
+    }
+
+
+    #rent-part .details_img .details p i {
+        color: #f5b754;
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+        text-align: center;
+        background: #222;
+        line-height: 110px;
+        margin-top: -16px;
+
+
+    }
+
+
+    #rent-part .details_img .details button {
+        margin-top: 80px;
+        padding: 66px 125px;
+        font-family: 'Outfit', sans-serif;
+        margin-right: -78px;
+        background: transparent;
+        background: #f5b754;
+        color: black;
+        border: 1px solid #f5b754;
+        border-radius: 130px;
+        transition: .7s;
+        font-size: 34px;
+        display: none;
+    }
+
+
+    #rent-part .details_img .details {
+    height: 10px;
+    width: 55%;
+    color: #000;
+    margin-left: 2rem;
+}
+
+
+    #rent-part .details_img .image img{
+
+        margin-top: 102rem;
+        height: 46rem;
+        width: 44rem;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 21px;
+        border-radius: 50px;
+
+    }
+
+    #rent-part .details_img .image .btn {
+        height: 14rem;
+        width: 14rem;
+        background: #000;
+        position: relative;
+        margin-top: -194px;
+        margin-left: -7px;
+        border-top-right-radius: 85px;
+    }
+
+
+    #rent-part .details_img .image button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        border: 1px solid #f5b754;
+        height: 11rem;
+        width: 11rem;
+        border-radius: 50%;
+        line-height: 59px;
+        background: transparent;
+        transition: .4s ease;
+    }
+
+
+    #rent-part .details_img .image button i {
+        text-align: center;
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 57px;
+    }
+
+
+    #rent-part .details_img .image .btn .h-11 {
+        height: 58px;
+        margin-left: 193px;
+        margin-top: -1px;
+        transform: rotate(-89deg);
+    }
+
+
+
+
+
+
+
+.wholeslide{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    display: block;
+}
+
+
+
+    #service-part {
+         width: 51.4rem;
+        background: #000;
+        height: 100rem;
+        position: relative;
+        margin-top: -1px;
+    }
+
+
+
+    #service-part .line {
+        height: 8rem;
+        width: 4px;
+        background: #f5b754;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .title p {
+        color: #f5b754;
+        font-size: 25px;
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: 20px;
+        margin-top: 15rem;
+    }
+
+
+    #service-part .title h2 {
+        padding-top: 15px;
+        color: white;
+        font-size: 5rem;
+        margin-top: 20px;
+    }
+
+
+    #service-part .sliders{
+
+        display: none;
+    }
+
+
+
+    #service-part .images img {
+        height: 40rem;
+        width: 40rem;
+        /* width: 35rem; */
+        margin-left: 9.27px;
+        position: relative;
+        transition: .4s ease;
+        margin-top: 12rem;
+    }
+
+
+    #service-part .images h4 a {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 48%;
+        left: 30%;
+        font-size: 58px;
+        width: 390px;
+    }
+
+
+    #service-part .images .btn {
+        height: 222px;
+        width: 200px;
+        background: #000;
+        position: relative;
+        margin-top: -30%;
+        border-top-right-radius: 111px;
+    }
+
+
+    #service-part .images .btn button {
+        background: transparent;
+        border: 1px solid #f5b754;
+        color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        font-size: 40px;
+        font-weight: bold;
+
+
+
+    }
+
+
+    #service-part .images{
+
+        position: relative;
+    }
+
+
+    #service-part .images .btn .w-11 {
+        position: absolute;
+        top: 25px;
+        left: 8px;
+    }
+
+
+    #service-part .images .btn .h-11 {
+        position: absolute;
+        top: 143px;
+        left: 133px;
+    }
+
+
+    .slick-dots {
+       
+        justify-content: center;
+        margin: 0;
+        padding: 16px 0;
+        list-style: none;
+        bottom: -68px;
+        /* margin-top: 70px; */
+    }
+
+
+    #service-part .images h4 a {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+        font-size: 53px;
+        width: 390px;
+    }
+
+
+
+ 
+
+
+/* booking rent start */
+
+
+#booking_rent .image_div .upper {
+    height: 150px;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+
+#booking_rent .image_div .lower {
+    height: 120px;
+    width: 100%;
+    background: #000;
+    margin-top: -.4%;
+    display: none;
+}
+
+
+
+#booking_rent {
+    background: url(../images/10041.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 51.4rem;
+    overflow: hidden;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+
+/* #booking_rent {
+    background: url(../images/10041.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 51.4rem;
+    height: 700px;
+}
+
+
+#booking_rent {
+    background: url(../images/10041.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 51.4rem;
+    height: 130rem;
+} */
+
+
+#booking_rent .image_div .overlay {
+    height: 130rem;
+    width: 100%;
+    background: rgb(0, 0, 0, .5);
+}
+
+
+#booking_rent .overlay .title p {
+    margin-top: -20rem;
+}
+
+
+#booking_rent .overlay .title h2 {
+    margin-top: 44px;
+    color: white;
+    font-size: 5rem;
+    width: 50rem;
+}
+
+
+#booking_rent .overlay .booking_item .items {
+    display: grid
+;
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    font-family: 'Outfit', sans-serif;
+    color: #848383;
+    font-size: 14px;
+}
+
+
+
+#booking_rent .overlay .booking_item {
+    height: 65rem;
+    width: 93%;
+    background: #222;
+    position: absolute;
+    top: 32%;
+    padding: 43px 0;
+    padding-bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 55px;
+}
+
+
+#booking_rent .overlay .booking_item .items {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: #848383;
+    font-size: 40px;
+    text-align: left;
+}
+
+#booking_rent .overlay .booking_item .items .stick{
+
+    background: #222;
+}
+
+
+#booking_rent .overlay .booking_item .items .first {
+    margin-left: 100px;
+    margin-top: 3rem;
+}
+
+#booking_rent .overlay .booking_item .items .stone {
+    margin-left: 41rem;
+    margin-top: -3.2rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .two {
+   
+    margin-top: 9rem;
+    margin-left: 6.5rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .stwo {
+    margin-left: 40.6rem;
+    margin-top: -3.2rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .leftt {
+    margin-left: 6.5rem;
+    margin-top: 9rem;
+}
+
+
+
+
+
+#booking_rent .overlay .booking_item .items .mid {
+    margin-left: 6.4rem;
+    margin-top: 7rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .sthree {
+    margin-left: 40rem;
+    margin-top: -3.4rem;
+}
+
+#booking_rent .overlay .booking_item .items .down {
+    margin-left: 10.3rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .right {
+    margin-left: 6.4rem;
+    margin-top: 8rem;
+}
+
+
+#booking_rent .overlay .booking_item .items .sfour i {
+    margin-left: 37rem;
+    margin-top: 10.6rem;
+}
+
+
+#booking_rent .overlay .booking_item .items button {
+    
+    background: #f5b754;
+    color: #000;
+    border-radius: 120px;
+    letter-spacing: 0px;
+    height: 150px;
+    width: 40rem;
+    margin-top: 7rem;
+    margin-left: 2.6rem;
+    transition: .5s ease;
+    font-size: 2.3rem;
+}
+
+
+/* booking rent end */
+
+
+
+
+
+/* lux car part start */
+
+/* #luxr_car {
+    height: 10rem;
+     width: 51.4rem;
+    padding-bottom: 150px;
+    background: #000;
+}
+
+ */
+
+    #luxr_car {
+        height: 645px;
+        width: 51.4rem;
+        background: #fff;
+        padding-top: 6rem;
+        padding-bottom: 50rem;
+    }
+
+
+#luxr_car .title p {
+    color: #f5b754;
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 20px;
+    margin-top: 15rem;
+    margin-bottom: 40px;
+}
+
+
+#luxr_car .title h2 {
+    margin-top: 3rem;
+    color: white;
+    font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* lux car part end */
+
+
+
+#service-part {
+     width: 51.4rem;
+    background: #000;
+    height: 100rem;
+    position: relative;
+}
+
+#luxr_car .carShow img {
+        height: 415px;
+        width: 2.8%;
+        margin-left: 50px;
+        border-radius: 15px;
+    }
+
+#luxr_car .mid_section {
+    height: 20rem;
+    width: 40.2rem;
+    background: #222;
+    position: absolute;
+    top: 50%;
+    left: 7.3%;
+    z-index: 9999;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    padding: 70px 20px;
+    color: #fff;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    border-radius: 50px;
+    display: grid;
+}
+
+
+#luxr_car .mid_section h2{
+
+    font-size: 47px;
+}
+
+
+#luxr_car .mid_section .left .icons i {
+    font-size: 35px;
+    color: #f5b754;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+#luxr_car .mid_section .left span {
+    color: #999;
+    margin-left: 25px;
+    font-size: 2rem;
+}
+
+
+#luxr_car .mid_section .right button {
+        background: #fff;
+        color: #222;
+        padding: 23px 59px;
+        border-radius: 79px;
+        border: 1px solid #999;
+        margin-left: 11rem;
+        transition: .4s;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-top: 5rem;
+        display: block;
+    }
+
+
+#luxr_car .mid_section .right h2 {
+        color: #999;
+        margin-top: -235px;
+        margin-right: -23rem;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+
+#luxr_car .mid_section .right span {
+    margin-left: 19rem;
+    font-size: 3rem;
+}
+
+
+
+
+#service-part .sliders {
+    display: none;
+}
+
+
+#luxr_car .mid_section .left {
+    margin-top: -8px;
+    margin-left: 7rem;
+    width: 70%;
+    float: left;
+}
+
+
+
+
+
+/* service two start */
+
+
+#service-part_two {
+    height: 50px;
+     width: 51.4rem;
+    background: #000;
+    height: 100rem;
+    position: relative;
+    padding-top: 12rem;
+    margin-top: -8px;
+    display: none;
+}
+
+
+#service-part_two .line {
+    height: 100px;
+    width: 3px;
+    background: #f5b754;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#service-part_two .do {
+    margin-top: 10rem;
+}
+
+
+#service-part_two .title h2 {
+    padding-top: 50px;
+    color: white;
+    font-size: 5rem;
+}
+
+
+#service-part_two .sliding-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    display: none;
+}
+
+
+#service-part_two .images img {
+    height: 40rem;
+    width: 40rem;
+    /* width: 35rem; */
+    margin-left: 9.27px;
+    position: relative;
+    transition: .4s ease;
+    margin-top: 12rem;
+}
+
+#service-part_two .images h4 a {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 48%;
+    left: 30%;
+    font-size: 58px;
+    width: 390px;
+}
+
+
+#service-part_two .images .btn {
+    height: 222px;
+    width: 200px;
+    background: #000;
+    position: relative;
+    margin-top: -30%;
+    border-top-right-radius: 111px;
+}
+
+
+#service-part_two .images .btn button {
+    background: transparent;
+    border: 1px solid #f5b754;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+    font-size: 40px;
+    font-weight: bold;
+
+
+
+}
+
+
+#service-part_two .images{
+
+    position: relative;
+}
+
+
+#service-part_two .images .btn .w-11 {
+    position: absolute;
+    top: 25px;
+    left: 8px;
+}
+
+
+#service-part_two .images .btn .h-11 {
+    position: absolute;
+    top: 143px;
+    left: 133px;
+}
+
+
+.slick-dots {
+   
+    justify-content: center;
+    margin: 0;
+    padding: 16px 0;
+    list-style: none;
+    bottom: -68px;
+    /* margin-top: 70px; */
+}
+
+
+#service-part_two .images .lux a {
+    margin-top: -11rem;
+    margin-left: -7rem;
+}
+
+
+
+
+/* service two end */
+
+
+
+
+
+/* rent process part start */
+
+.rent-process {
+    height: 100px;
+    width: 100%;
+    padding-top: 100px;
+    height: 200rem;
+     width: 51.4rem;
+    background: #000;
+    margin-top: 7rem
+}
+
+
+.rent-process .line {
+    height: 100px;
+    width: 3px;
+    background: #f5b754;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+}
+
+
+.rent-process .title {
+    padding-top: 150px;
+    margin-top: -8rem;
+}
+
+.rent-process .title h2{
+
+    font-size: 92px;
+
+}
+
+
+
+.rent-process .loc {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    position: absolute;
+    top: 43rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.rent-process .loc .one {
+    background: #222;
+    font-family: 'Outfit', sans-serif;
+    padding: 170px 1px 35px 105px;
+    border-radius: 45px;
+    position: relative;
+    height: 28rem;
+    margin-bottom: 5rem;
+    width: 37rem;
+}
+
+
+
+
+
+.rent-process .loc .one h3 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+
+
+.rent-process .loc .one p {
+    color: #999;
+    font-size: 2rem;
+    width: 474px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+
+
+
+.rent-process .loc .one .btone p {
+    border-radius: 50%;
+    padding: 15px 15px;
+    background: #222;
+    height: 120px;
+    width: 120px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 8rem;
+}
+
+
+.rent-process .loc .one .btone {
+    background: #000;
+    display: inline-block;
+    padding: 9px 55px;
+    padding-bottom: 2px;
+    position: absolute;
+    top: 69%;
+    left: -6%;
+    border-top-right-radius: 125px;
+}
+
+
+.rent-process .one .svgs .w-11 {
+    height: 45px;
+    width: 45px;
+    padding: 10px 4px;
+    position: absolute;
+    top: 25rem;
+    left: -10px;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+.rent-process .one .svgss .h-11 {
+    height: 45px;
+    width: 45px;
+    padding: 10px 4px;
+    position: absolute;
+    top: 38rem;
+    left: 211px;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+.rent-process .cotation p {
+    font-family: 'Outfit', sans-serif;
+    color: #999;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    top: 184rem;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    width: 38rem;
+    line-height: 61px;
+    /* margin-top: -60px; */
+}
+
+
+.rent-process .cotation i{
+
+    font-size: 3rem;
+}
+
+
+/* rent process part end */
+
+
+
+/* car promo start */
+
+
+#booking_rent {
+    background: url(../images/10041.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 51.4rem;
+    height: 120rem;
+}
+
+
+#booking_rent .image_div .overlay {
+    height: 120rem;
+    width: 100%;
+    background: rgb(0, 0, 0, .5);
+}
+
+
+#booking_rent .overlay .title {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#booking_rent .overlay .title h2 {
+    margin-top: 24px;
+    color: white;
+    font-size: 5.4rem;
+    width: 50rem;
+}
+
+
+
+#booking_rent .overlay .play {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    border: 4px solid #f5b754;
+    border-radius: 50%;
+    padding: 92px 98px;
+    transition: .4s;
+}
+
+
+/* car promo end */
+
+
+
+
+
+
+/* client part start */
+
+
+.client {
+    height: 100px;
+    width: 100%;
+    height: 236rem;
+    padding-top: 40px;
+     width: 51.4rem;
+    background: #000;
+}
+
+.client .title h2 {
+    color: white;
+    font-size: 5rem;
+    margin-top: 40px;
+}
+
+
+.client .loc {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.client .loc .one {
+    margin-top: 50px;
+    background: #222;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px 1px 140px 34px;
+    border-radius: 20px;
+    position: relative;
+    height: 150px;
+    border-top-left-radius: 0px;
+    margin-bottom: 7rem;
+}
+
+
+.client .loc .one {
+    margin-top: 50px;
+    background: #222;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px 1px 230px 95px;
+    border-radius: 50px;
+    position: relative;
+    height: 30rem;
+    border-top-left-radius: 0px;
+    margin-bottom: 17rem;
+    width: 38rem;
+}
+
+
+.client .loc .one .up {
+    height: 45px;
+    width: 30%;
+    background: #222;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    left: 0;
+    top: -125px;
+    padding-right: 16rem;
+    padding-top: 5rem;
+}
+
+
+.client .loc .one h3 i {
+    font-size: 7rem;
+    color: red;
+    margin-bottom: 8px;
+}
+
+
+.client .loc .one p {
+    color: #999;
+    font-size: 2.2rem;
+    width: 38rem;
+    line-height: 25px;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    line-height: 2;
+}
+
+
+.client .loc .one .up .star .icon {
+    top: 50%;
+    left: 19%;
+    height: 5rem;
+    width: 12rem;
+    margin-left: 15rem;
+    margin-top: 0rem;
+}
+
+
+.client .loc .one .up .star .icon i {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.client .loc .one .up .star {
+    background: none;
+    height: 45px;
+    width: 54%;
+    margin-left: 239px;
+}
+
+
+.client .loc .one .up .star .w-11 {
+    height: 120px;
+    width: 120px;
+    margin-left: 13rem;
+    margin-top: -50px;
+    transform: rotate(-88deg);
+}
+
+
+.client .loc .one .btone {
+    background: #000;
+    display: inline-block;
+    padding: 100px 90px;
+    padding-bottom: 4rem;
+    position: absolute;
+    top: 69%;
+    left: -1%;
+    border-top-right-radius: 117px;
+}
+
+.client .loc .one .btone img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+
+.client .loc .one .btone {
+    background: #000;
+    display: inline-block;
+    padding: 36px 44px;
+    padding-bottom: 4rem;
+    position: absolute;
+    top: 69%;
+    left: 0%;
+    border-top-right-radius: 117px;
+}
+
+
+.client .one .svgs .w-11 {
+    height: 90px;
+    width: 90px;
+    padding: 10px 4px;
+    position: absolute;
+    top: 25rem;
+    left: -4px;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+
+.client .one .svgss .h-11 {
+    height: 90px;
+    width: 90px;
+    padding: 10px 4px;
+    position: absolute;
+    top: 39rem;
+    left: 14rem;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+
+/* client part start */
+
+
+
+
+
+/* letest part start */
+
+
+.letest-part {
+    height: 50px;
+     width: 51.4rem;
+    background: #000;
+    height: 100rem;
+    position: relative;
+    margin-top: -2px;
+}
+
+
+.letest-part .third_slider{
+
+    display: block;
+}
+
+
+.letest-part .line {
+    height: 8rem;
+    width: 4px;
+    background: #f5b754;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+}
+
+.letest-part .title h2 {
+    padding-top: 15px;
+    color: white;
+    font-size: 5rem;
+    margin-top: 1rem;
+
+}
+
+
+.letest-part .sliding-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    display: none;
+}
+
+
+.letest-part .images img {
+    height: 100%;
+    width: 39rem;
+    border-radius: 50px;
+    margin-left: 25.27px;
+    position: relative;
+    transition: .4s ease;
+    margin-top: 13rem;
+}
+
+
+.letest-part .images .btn {
+    height: 70px;
+    width: 70px;
+    background: #000;
+    position: relative;
+    margin-top: -4rem;
+    border-top-right-radius: 28px;
+}
+
+
+.letest-part .images .btn {
+    height: 13rem;
+    width: 13rem;
+    background: #000;
+    position: relative;
+    margin-top: -12.2rem;
+    border-top-right-radius: 110px;
+}
+
+
+.letest-part .images .btn button {
+    background: transparent;
+    border: 3px solid #f5b754;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+    font-size: 2rem;
+}
+
+.letest-part .images{
+
+    position: relative;
+}
+
+
+.letest-part .images .w-11 {
+    position: absolute;
+    top: 22rem;
+    left: 10px;
+    transform: rotate(-90deg);
+    margin-top: -28rem;
+    height: 100px;
+    width: 100px;
+}
+
+
+.letest-part .images{
+
+    position: relative;
+}
+
+
+.letest-part .images .h-11 {
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    transform: rotate(-90deg);
+    margin-top: 4px;
+    height: 140px;
+    width: 140px;
+    margin-left: 72px;
+}
+
+
+.letest-part .images h4 a {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 17rem;
+    font-size: 20px;
+    width: 20rem;
+    text-align: right;
+    font-size: 3rem;
+    line-height: 68px;
+
+}
+
+
+
+.letest-part .third_slider {
+        
+    display: none;
+}
+
+/* letest part end */
+
+
+
+
+/* interest part start */
+
+.interest_part {
+    background: url(../images/10042.jpg);
+    background-position: center;
+    background-size: cover;
+     width: 51.4rem;
+    height: 95rem;
+    background-attachment: normal;
+}
+
+
+.interest_part .image_div .overlay {
+    height: 88.7rem;
+    width: 100%;
+    background: rgb(0, 0, 0, .5);
+}
+
+
+.interest_part .image_div .upper {
+    height: 100px;
+    width: 100%;
+    background: #000;
+    margin-top: -3px;
+}
+
+
+.interest_part .overlay .title .car {
+
+    margin-top: -6rem;
+    color: #f5b754;
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 12px;
+    margin-top: -15rem;
+    text-transform: uppercase;
+    width: 30rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+   
+
+   
+}
+
+
+.interest_part .overlay .title h2 {
+    margin-top: 14px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 5rem;
+}
+
+
+.interest_part .overlay .title .msg {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    width: 50rem;
+    margin-top: 3rem;
+}
+
+.interest_part .overlay .btn .left{
+
+    margin-top: 15rem;
+    font-size: 2rem;
+}
+
+
+.interest_part .overlay .btn .right{
+
+    font-size: 2rem;
+}
+
+
+.interest_part .overlay .btn button {
+    background: #f5b754;
+    padding: 50px 95px;
+    border-radius: 80px;
+    border: 1px solid #f5b754;
+    margin-top: 4rem;
+}
+
+
+
+#logo_part .lower {
+    height: 120px;
+     width: 51.4rem;
+    background: #fff;
+    padding: 70px 0;
+    margin-top: -2px;
+}
+
+
+
+/* interest part end */
+
+
+
+
+
+/* contract part start */
+
+
+.contact {
+    height: 100px;
+     width: 51.4rem;
+    background: #000;
+    padding: 100px 0;
+    margin-top: -3px;
+}
+
+
+.contact {
+    height: 50rem;
+     width: 51.4rem;
+    background: #000;
+    padding: 100px 0;
+    margin-top: -3px;
+}
+
+
+.contact .media {
+    height: 100px;
+    width: 1005;
+    background: #000;
+    border: 1px solid #222;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.contact .media .one i {
+    border-radius: 50%;
+    background: white;
+    padding: 50px 50px;
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 2.5rem;
+}
+
+
+.contact .media .one h3 {
+    margin-left: 15rem;
+    margin-top: -7rem;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.contact .media .one p {
+    font-size: 2rem;
+    margin-left: 15rem;
+    margin-top: 14px;
+    color: #999;
+    font-family: 'Outfit', sans-serif;
+}
+
+.contact .media .mid {
+    margin-left: 0px;
+}
+
+
+.contact .media .address {
+    margin-left: 0px;
+}
+
+
+/* contract part end */
+
+
+
+
+
+/* footer part start */
+
+#footer-part {
+    padding-top: 100px;
+    height: 130rem;
+     width: 51.4rem;
+    background: #000;
+    margin-top: -2px;
+}
+
+
+#footer-part .items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+#footer-part .items .one .logo img {
+    height: 6rem;
+    width: 20rem;
+    margin-bottom: 10px;
+}
+
+
+#footer-part .items .one p {
+    color: #999;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    width: 42rem;
+    line-height: 1.7;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+#footer-part .items .one .icons i {
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    transition: .4s;
+    font-size: 2rem;
+}
+
+
+#footer-part .items .one .icons {
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+#footer-part .items .two {
+    height: 350px;
+    margin-top: 12rem;
+}
+
+
+#footer-part .items .two h2 {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+
+#footer-part .items .two ul li {
+    font-family: 'Outfit', sans-serif;
+    color: #999;
+    margin-top: 3rem;
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+
+#footer-part .items .two h2 {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 6rem;
+    font-size: 3rem;
+}
+
+
+#footer-part .items .three {
+    height: 350px;
+    margin-top: 25rem;
+}
+
+
+#footer-part .items .three h2 {
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 3rem;
+}
+
+
+#footer-part .items .three p {
+    color: #999;
+    font-size: 2rem;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    width: 44rem;
+}
+
+
+#footer-part .items .three button {
+    padding: 11px 20px;
+    width: 200px;
+    border-radius: 104px;
+    width: 43rem;
+    background: transparent;
+    border: 3px solid #fff;
+    margin-top: 2rem;
+}
+
+#footer-part .items .three button i {
+    background: #fff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: 32.3rem;
+    transition: .4s;
+    font-size: 2rem;
+}
+
+#footer-part .items .three button i:hover{
+
+    color: green;
+}
+
+
+#footer-part .items .three button a {
+    margin-right: 280px;
+    color: #999;
+    position: absolute;
+    top: 58px;
+    left: 3rem;
+    font-size: 2rem;
+}
+
+
+#footer-part .footline {
+    height: 3px;
+    width: 100%;
+    background: #222;
+    margin-top: 12rem;
+    margin-bottom: 20px;
+}
+
+
+#footer-part .end {
+    color: #999;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+
+/* footer part end */
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+    .container{
+
+        width: 950px;
+        margin: 0 auto;
+    }
+
+
+/* header-part start */
+    #header-part {
+        background: rgb(91, 89, 89);
+        padding: 34px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 71.2rem;
+        background: transparent;
+    }
+
+
+    #header-part .logo img {
+        height: 27px;
+        width: 150px;
+        margin-left: -5rem;
+    }
+
+
+    #header-part .menu .menuitem ul {
+        margin-right: 190px;
+        margin-top: 8px;
+        display: none;
+    }
+
+
+    #header-part .menu .phone {
+        margin-top: -42px;
+        margin-right: 54px;
+        display: none;
+    }
+
+
+    #header-part .menu .mobile-menu{
+
+       
+            font-size: 2rem;
+            float: right;
+            margin-top: -34px;
+            color: white;
+            display: none;
+            margin-right: -5rem;
+    
+        display: block;
+    }
+        
+    #header-part .menu .mobile-menu span {
+        font-size: 3rem;
+        float: right;
+        margin-top: 23px;
+        color: white;
+        display: block;
+    }
+
+    #header-part .menu .mobile-menu .overlay .closebtn {
+        position: absolute;
+        top: 1.3rem;
+        font-size: 8rem;
+        color: #fff;
+        right: 6.5rem;
+    }
+    
+    
+    #header-part .menu .mobile-menu span:hover{
+    
+        
+        cursor: pointer;
+    }
+    
+    
+    #header-part .menu .mobile-menu .overlay{
+    
+        height: 69rem;
+         width: 51.4rem;
+        position: fixed;
+        top: 14rem;
+        left: 0;
+        background: #222;
+        transition: .5s;
+        width: 0;
+        z-index: 1000;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    
+     
+    #header-part .menu .mobile-menu .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: left;
+        margin-left: 3rem;
+    }
+    
+    
+    #header-part .menu .mobile-menu .overlay-content a{
+    
+    
+        text-decoration: none;
+        display: block;
+    }
+    
+    
+    #header-part .menu .mobile-menu .overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 2rem;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 4rem;
+        font-family: 'Outfit', sans-serif;
+        z-index: 10000;
+    
+    
+    }
+    
+    
+    
+
+
+
+
+
+/* header-part end */
+
+/* slider part start */
+
+    .overlays {
+        width: 71.2rem;
+        height: 63rem;
+        background: rgb(0, 0, 0, .5);
+        padding: 340px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    #slider-image .sliderimg {
+        width: 71.2rem;
+    }
+
+
+    #slider-image .sliderimg img{
+        object-fit: cover; /* Ensures the image covers the container without distortion */
+        object-position: center; 
+        height: 105rem;
+        width: 71.2rem;
+    }
+
+
+    #slider-image .desc span {
+        color: #f5b754;
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+
+    #slider-image .desc p {
+        font-size: 23px;
+        margin-top: 10px;
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    }
+
+
+    #slider-image .desc button {
+        margin-top: 30px;
+        padding: 33px 70px;
+        font-family: 'Outfit', sans-serif;
+        margin-right: 30px;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 50px;
+        transition: .5s;
+    }
+
+
+    #slider-image .desc button {
+        margin-top: 30px;
+        padding: 33px 70px;
+        font-family: 'Outfit', sans-serif;
+        margin-right: 30px;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 50px;
+        transition: .5s;
+        font-size: 1.5rem;
+    }
+
+
+        #slider-image .desc {
+        
+            margin-top: 41rem;
+            margin-left: 5rem;
+
+     }
+
+    
+
+
+/* slider part end */
+
+
+
+
+
+/* rent part start */
+
+#rent-part {
+    height: 89rem;
+    padding: 11rem 0;
+    margin-top: -30px;
+    width: 71.2rem;
+    padding-bottom: 18rem;
+    background: black;
+}
+
+
+    #rent-part .details_img{
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    #rent-part .details_img .details {
+        height: 10px;
+        width: 100%;
+        color: white;
+    }
+
+    #rent-part .details_img .details span {
+        color: #f5b754;
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.7rem;
+        letter-spacing: 13px;
+    }
+
+
+
+    
+    #rent-part .details_img .details h2 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    br{
+        display: none;
+    }
+
+    #rent-part .details_img .details h2 span {
+        color: #f5b754;
+        font-family: 'Outfit', sans-serif;
+        font-size: 3rem;
+        letter-spacing: normal;
+        line-height: 45px;
+       
+    }
+
+
+    #rent-part .details_img .details p {
+        color: #999;
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.4rem;
+        width: 59rem;
+        letter-spacing: 1px;
+        line-height: 35px;
+        margin: 2rem 0;
+    }
+
+
+    #rent-part .details_img .details p i {
+        color: #f5b754;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        text-align: center;
+        background: #222;
+        line-height: 60px;
+        margin: 2px 0
+    }
+
+
+    #rent-part .details_img .details button {
+        margin-top: 8px;
+        padding: 30px 62px;
+        font-family: 'Outfit', sans-serif;
+        margin-right: 10px;
+        background: transparent;
+        background: #f5b754;
+        color: black;
+        border: 1px solid #f5b754;
+        border-radius: 50px;
+        transition: .7s;
+        font-size: 1.5rem;
+    }
+
+
+
+    #rent-part .details_img .image {
+       width: 100%;
+       position: absolute;
+       top: 156rem;
+       left: 2.8rem;
+    }
+
+
+    #rent-part .details_img .image img {
+        height: 58rem;
+        width: 60rem;
+        border-radius: 20px;
+       
+    }
+
+    #rent-part .details_img .image .btn {
+        height: 10rem;
+        width: 10rem;
+        background: #000;
+        position: relative;
+        margin-top: -162px;
+        margin-left: 48px;
+        border-top-right-radius: 50px;
+    }
+
+    #rent-part .details_img .image button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        border: 2px solid #f5b754;
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        line-height: 90px;
+        background: transparent;
+        transition: .4s ease;
+    }
+    
+    #rent-part .details_img .image button i{
+
+        font-size: 1.5rem;
+        margin-top: 32px;
+        margin-left: 5px;
+
+    }
+
+
+
+
+/* rent part end */
+
+
+
+
+
+/* service part start */
+
+    #service-part {
+        height: 50px;
+        width: 71.2rem;
+        margin-top: -3px;
+        background: #000;
+        height: 56rem;
+        position: relative;
+    }
+
+
+    #service-part .line {
+        height: 74px;
+        width: 3px;
+        background: #f5b754;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+    }
+
+
+    #service-part .title {
+        padding-top: 12rem;
+    }
+
+    .title p {
+        color: #f5b754;
+        font-size: 18px;
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: 6px;
+    }
+
+
+    #service-part .title h2 {
+        padding-top: 15px;
+        color: white;
+        font-size: 3rem;
+    }
+
+
+    #service-part .images{
+
+        height: 30rem;
+        width: 19rem;
+       
+
+    }
+
+
+    
+    #service-part .sliders{
+
+        display: none;
+    }
+
+    #service-part .res{
+
+
+        display: block;
+    }
+
+    #service-part .responsive_slider {
+
+        width: 100%;
+        margin-top: 5rem;
+        margin-left: 1.2rem;
+    }
+
+
+    #service-part .responsive_slider .images#service-part .images {
+
+
+        height: 30rem;
+        width: 19rem;
+        margin-top: 7rem;
+       
+    }
+    
+
+
+    #service-part .responsive_slider .images img {
+        height: 29rem;
+        width: 27rem;
+        border-radius: 20px;
+        margin-left: 1.27px;
+        position: relative;
+        transition: .4s ease;
+    }
+
+
+    #service-part .responsive_slider .images .btn {
+        height: 8rem;
+        width: 7rem;
+        background: #000;
+        position: relative;
+        margin-top: -26%;
+        border-top-right-radius: 73px;
+    }
+
+
+    #service-part .responsive_slider .images .h-11 {
+        transform: rotate(-90deg);
+        margin-top: 4px;
+        height: 100px;
+        width: 100px;
+        margin-left: 101px;
+        margin-top: 2rem;
+    }
+
+
+    #service-part .responsive_slider h4 a {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 78%;
+        left: 160px;
+        font-size: 2rem;
+    }
+
+
+
+    #service-part .images .btn button {
+        background: transparent;
+        border: 2px solid #f5b754;
+        color: white;
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        top: 52%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        font-size: 1.7rem;
+    }
+
+
+
+
+
+/* service part end */
+
+
+
+
+
+
+/* booking rent start */
+
+
+#booking_rent .image_div .upper {
+    height: 150px;
+    width: 71.2rem;
+    background: #000;
+    margin-top: -2px;
+}
+
+
+#booking_rent .image_div .lower {
+    height: 120px;
+    width: 100%;
+    background: #000;
+    margin-top: -0.4%;
+}
+
+
+    #booking_rent {
+        background: url(../images/10041.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 71.2rem;
+        height: 900px;
+    }
+
+
+
+    #booking_rent .image_div .overlay {
+        height: 40rem;
+        width: 71.2rem;
+        background: rgb(0, 0, 0, .5);
+    }
+
+
+    #booking_rent .overlay .booking_item {
+        height: 8rem;
+        width: 80%;
+        background: #222;
+        position: absolute;
+        top: 48%;
+        padding: 43px 0;
+        padding-bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+    }
+
+    #booking_rent .overlay .booking_item .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        color: #848383;
+        font-size: 1rem;
+    }
+
+
+    #booking_rent .overlay .booking_item {
+           
+        position: relative;
+        
+        
+    }
+
+    #booking_rent .overlay .booking_item .items .mid {
+           
+        position: absolute;
+        top: 8rem;
+        left: 9.1rem;
+        
+    }
+
+    #booking_rent .overlay .booking_item{
+
+        position: relative;
+    }
+
+
+    #booking_rent .overlay .booking_item .items .right {
+           
+        position: absolute;
+        top: 8rem;
+        left: 35rem;
+        
+    }
+
+
+    #booking_rent .overlay .booking_item{
+
+        position: relative;
+    }
+
+
+    #booking_rent .overlay .booking_item .items button{
+
+        position: absolute;
+        left: 40.7rem;
+        top: 8rem;
+    }
+
+    #booking_rent .overlay .booking_item .items .sfour i {
+        margin-left: 31.4rem;
+        margin-top: 4.2rem;
+    }
+
+    #booking_rent .overlay .booking_item .items .leftt {
+        margin-left: 0;
+    }
+
+
+    #booking_rent .overlay .booking_item .items .sthree {
+        margin-left: 3.7rem;
+    }
+
+
+
+
+    #booking_rent .overlay .booking_item .items .down {
+        margin-left: 3.8rem;
+    }
+
+
+
+
+
+
+
+
+
+/* booking rent end */
+
+
+
+
+
+
+    /* lux car  start */
+
+    #luxr_car {
+        height: 600px;
+        width: 71.2rem;
+        padding-bottom: 150px;
+        background: #000;
+    } 
+    
+    
+    #luxr_car .mid_section {
+        height: 35px;
+        width: 47%;
+        background: #222;
+        position: absolute;
+        top: 65%;
+        left: 25.4%;
+        z-index: 9999;
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        padding: 70px 20px;
+        color: #fff;
+        padding-bottom: 30px;
+        border-radius: 20px;
+    }
+
+
+    /* lux car  end */
+
+
+
+
+    /* categories part start */
+
+    
+    #service-part_two {
+        height: 50px;
+        width: 71.2rem;
+        background: #000;
+        height: 46rem;
+        position: relative;
+        margin-top: -2px;
+    }
+
+
+    #service-part_two .line {
+        height: 70px;
+        width: 3px;
+        background: #f5b754;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+    }
+
+
+    #service-part_two .slick-dots {
+
+        display: none;
+
+    }
+
+
+    #service-part_two .sliding-img {
+       
+        display: none;
+    }
+
+    
+
+    
+
+
+    #service-part_two .images .btn {
+        height: 70px;
+        width: 70px;
+        background: #000;
+        position: relative;
+        margin-top: 59%;
+        border-top-right-radius: 28px;
+    }
+
+
+    .third_slider .slick-dots li{
+
+        margin-left: 4.3rem;
+        display: block;
+
+
+    }
+
+
+    #service-part_two .slick-dots li {
+        margin: 0 0.25rem;
+        background: #fff;
+        border-radius: 50%;
+        display: none;
+    }
+
+    #service-part_two .third_slider{
+
+        margin-top: 5rem;
+        margin-left: 3.6rem;
+
+    }
+
+    #service-part_two .images h4 a {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 12%;
+        left: 40px;
+        font-size: 1.5rem;
+    }
+
+
+
+    /* categories part end */
+
+
+
+
+
+
+    /* rent process part start */
+
+    .rent-process {
+        height: 100px;
+        width: 100%;
+        padding-top: 100px;
+        height: 52rem;
+        width: 71.2rem;
+        background: #000;
+        margin-top: -2px;
+    }
+
+    .rent-process {
+
+        position: relative;
+
+    }
+
+    .rent-process .loc {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        width: auto;
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .rent-process .loc .one {
+        background: #222;
+        font-family: 'Outfit', sans-serif;
+        padding: 60px 13px 89px 41px;
+        border-radius: 20px;
+        position: relative;
+        height: 15rem;
+        width: 12rem;
+    }
+
+
+    .rent-process .loc .one h3 {
+        color: white;
+        /* font-weight: bold; */
+        padding-bottom: 20px;
+        font-size: 1.6rem;
+        /* width: 0rem; */
+    }
+
+
+    .rent-process .loc .one p {
+        color: #999;
+        font-size: 18px;
+        width: 10.7rem;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .rent-process .loc .one{
+
+        position: relative;
+    }
+
+
+    .rent-process .loc .one .btone {
+        background: #000;
+        display: inline-block;
+        padding: 20px 20px;
+        padding-bottom: 2px;
+        position: absolute;
+        top: 18.4rem;
+        left: -1%;
+        border-top-right-radius: 40px;
+    }
+
+
+    .rent-process .one .svgs .w-11 {
+        height: 45px;
+        width: 45px;
+        padding: 10px 4px;
+        position: absolute;
+        top: 15rem;
+        left: -4px;
+        z-index: 1;
+        transform: rotate(-90deg);
+    }
+
+
+    .rent-process .one .svgss .h-11 {
+        height: 45px;
+        width: 45px;
+        padding: 10px 4px;
+        position: absolute;
+        top: 20.9rem;
+        left: 5rem;
+        z-index: 1;
+        transform: rotate(-90deg);
+    }
+
+
+    .rent-process .loc .right_padding{
+
+        height: 19rem;
+
+
+    }
+
+
+    .rent-process .loc .right_padding .btone {
+        background: #000;
+        display: inline-block;
+        padding: 20px 20px;
+        padding-bottom: 2px;
+        position: absolute;
+        top: 22.2rem;
+        left: -1%;
+        border-top-right-radius: 40px;
+    }
+
+
+    .rent-process .loc .one .btone p {
+        border-radius: 50%;
+        padding: 20px 20px;
+        background: #222;
+        height: 20px;
+        width: 20px;
+        font-size: 18px;
+        line-height: 14px;
+        text-align: center;
+        padding-bottom: 15px;
+        color: #fff;
+        font-family: 'Outfit', sans-serif;
+        font-weight: bold;
+    }
+
+
+    .rent-process .right_padding .svgs .w-11 {
+        height: 45px;
+        width: 45px;
+        padding: 10px 4px;
+        position: absolute;
+        top: 19rem;
+        left: -4px;
+        z-index: 1;
+        transform: rotate(-90deg);
+    }
+
+    .rent-process .right_padding .svgss .h-11 {
+        height: 45px;
+        width: 45px;
+        padding: 10px 4px;
+        position: absolute;
+        top: 24.9rem;
+        left: 5rem;
+        z-index: 1;
+        transform: rotate(-90deg);
+    }
+
+
+    .rent-process .cotation p {
+        font-family: 'Outfit', sans-serif;
+        color: #999;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 17px;
+    }
+
+
+
+
+    /* rent process part end */
+
+
+
+
+    /* car promo part start */
+
+    #booking_rent .overlay .title h2 {
+        margin-top: 14px;
+        color: white;
+        font-size: 2.9rem;
+    }
+
+    /* car promo part end */
+
+
+
+    /* client part start */
+
+    .client {
+        height: 100px;
+        width: 100%;
+        height: 600px;
+        padding-top: 40px;
+        width: 71.2rem;
+        background: #000;
+    }
+
+
+    .client .loc .one .up {
+        height: 45px;
+        width: 65%;
+        background: #222;
+        position: absolute;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        left: 0;
+        top: -44px;
+    }
+
+
+
+    /* .client .loc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        width: auto;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+    } */
+
+
+    .client .loc .extraone{
+        
+       display: none;
+    }
+
+
+
+
+
+    /* client part end */
+
+
+
+
+    /* letest news part start */
+
+
+
+    .letest-part {
+        height: 50px;
+        width: 71.2rem;
+        background: #000;
+        height: 55rem;
+        position: relative;
+        margin-top: -2px;
+    }
+
+
+    .letest-part .line {
+        height: 60px;
+        width: 2px;
+        background: #f5b754;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+    }
+
+
+    .letest-part .title h2 {
+        padding-top: 15px;
+        color: white;
+        font-size: 2.9rem;
+    }
+
+
+    .letest-part .sliding-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 50px;
+    }
+
+
+    .letest-part .images img {
+        height: 100%;
+        width: 450px;
+        border-radius: 20px;
+        margin-left: 25.27px;
+        position: relative;
+        transition: .4s ease;
+    }
+
+
+    .letest-part .third_slider {
+        margin-top: 5rem;
+        margin-left: 3.6rem;
+    }
+
+    .letest-part .images .btn {
+        height: 115px;
+        width: 115px;
+        background: #000;
+        position: relative;
+        margin-top: -7rem;
+        border-top-right-radius: 77px;
+        margin-left: 22px;
+    }
+
+
+    .letest-part .images .w-11 {
+        transform: rotate(-90deg);
+        margin-top: -48px;
+        height: 64px;
+        width: 35px;
+    }
+
+
+    .letest-part .images .h-11 {
+        transform: rotate(-90deg);
+        margin-top: 44px;
+        height: 64px;
+        width: 35px;
+        margin-left: 108px;
+    }
+
+
+    .letest-part .images h4 a {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 75%;
+        left: 10rem;
+        font-size: 29px;
+    }
+
+
+    .letest-part .third_slider .slick-dots li {
+        margin-left: 1.3rem;
+        display: block;
+    }
+
+
+    .letest-part .third_slider .slick-dots {
+       
+        margin-left: -52px;
+    }
+
+
+    .letest-part .images .btn button {
+        background: transparent;
+        border: 1px solid #f5b754;
+        color: white;
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        top: 54%;
+        left: 43%;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        font-size: 1.5rem;
+    }
+
+
+    
+
+
+
+    /* letest news part end */
+
+
+
+
+    /* interest part start */
+
+    .interest_part {
+        background: url(../images/10042.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 71.2rem;
+        height: 800px;
+        background-attachment: normal;
+    }
+
+
+    .interest_part .image_div .overlay {
+        height: 34.4rem;
+        width: 100%;
+        background: rgb(0, 0, 0, .5);
+    }
+
+
+    .interest_part .overlay .title h2 {
+        margin-top: 14px;
+        color: white;
+        margin-bottom: 30px;
+        font-size: 2.6rem;
+    }
+
+
+    .interest_part .overlay .btn button {
+        background: #f5b754;
+        padding: 25px 55px;
+        border-radius: 40px;
+        border: 1px solid #f5b754;
+        font-size: 1.3rem;
+    }
+
+
+    /* interest part end */
+
+
+
+
+    /* logo part start */
+
+    #logo_part .lower {
+        height: 120px;
+        width: 71.2rem;
+        background: #222;
+        margin-top: -100px;
+        
+    }
+
+
+    /* logo part end */
+
+
+
+
+
+    /* contact part start */
+
+    .contact {
+        height: 100px;
+        width: 71.2rem;
+        background: #000;
+        padding: 100px 0;
+    }
+
+
+    .contact .media {
+        height: 140px;
+        width: 1005;
+        background: #000;
+        border: 1px solid #222;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .contact .media .one h3 {
+        margin-left: 160px;
+        margin-top: -58px;
+        color: white;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .contact .media .one p {
+        margin-left: 160px;
+        margin-top: 5px;
+        color: #999;
+        font-family: 'Outfit', sans-serif;
+        width: 130px;
+    }
+
+    .contact .media .one{
+
+        margin-top: 1.3rem;
+    }
+
+    .contact .media .mid{
+
+        margin-left: -9.7rem;
+    }
+
+    .contact .media .stick {
+        height: 50px;
+        width: 1px;
+        background: #000;
+        margin-left: 14px;
+        margin-top: 25px;
+        /* display: none; */
+    }
+
+
+    .contact .media .one i {
+        border-radius: 50%;
+        background: #f5b754;
+        padding: 25px 25px;
+        margin-top: 9px;
+        margin-left: 59px;
+        font-size: 1.5rem;
+    }
+
+
+    /* contact part end */
+
+
+
+
+    /* footer part start */
+
+    #footer-part {
+        margin-top: -2px;
+        height: 30rem;
+        width: 71.2rem;
+        background: #000;
+    }
+
+
+    #footer-part .items .one {
+        height: 350px;
+        margin-top: 3rem;
+    }
+
+    #footer-part .items .one p {
+        color: #999;
+        font-family: 'Outfit', sans-serif;
+        font-size: 19px;
+        width: 285px;
+        line-height: 1.5;
+    }
+
+    #footer-part .items .one .icons i {
+        background: transparent;
+        border: 1px solid #f5b754;
+        color: #999;
+        padding: 20px 20px;
+        border-radius: 50%;
+        margin-left: 5px;
+        transition: .4s;
+    }
+
+    #footer-part .items .two {
+        height: 350px;
+        margin-top: 3rem;
+    }
+
+
+    #footer-part .items .two h2 {
+        color: #fff;
+        font-family: 'Outfit', sans-serif;
+        margin-bottom: 15px;
+        font-size: 1.7rem;
+        margin-top: -5px;
+        /* margin-left: -3px; */
+    }
+
+
+    #footer-part .items .two ul li {
+        font-family: 'Outfit', sans-serif;
+        color: #999;
+        margin-top: 15px;
+        list-style: none;
+        margin-left: 20px;
+        transition: .5s ease;
+        font-size: 1.2rem;
+    }
+
+    #footer-part .items .three h2 {
+        color: #fff;
+        font-family: 'Outfit', sans-serif;
+        margin-top: 2.9rem;
+        margin-left: 7rem;
+    }
+
+    #footer-part .items .three p {
+        color: #999;
+        font-size: 19px;
+        line-height: 2;
+        margin-top: 14px;
+        margin-bottom: 20px;
+        font-family: 'Outfit', sans-serif;
+        width: 272px;
+        margin-left: 7rem;
+    }
+
+    #footer-part .items .three button {
+        padding: 10px 20px;
+        width: 200px;
+        border-radius: 40px;
+        width: 281px;
+        background: transparent;
+        border: 1px solid #f5b754;
+        margin-left: 7rem;
+    }
+
+    #footer-part .items .three button i {
+        background: #f5b754;
+        padding: 15px 15px;
+        border-radius: 50%;
+        margin-top: -3px;
+        margin-left: 13rem;
+        transform: rotate(-60deg);
+        transition: .4s;
+    }
+
+    #footer-part .items .three button a {
+        margin-right: 280px;
+        color: #999;
+        position: absolute;
+        top: 24px;
+        width: 8rem;
+        font-size: 18px;
+    }
+
+    #footer-part .items .three button {
+        padding: 16px 20px;
+        width: 200px;
+        border-radius: 40px;
+        width: 281px;
+        background: transparent;
+        border: 1px solid #f5b754;
+        margin-left: 7rem;
+    }
+
+
+    #footer-part .footline {
+        height: 2px;
+        width: 100%;
+        background: #222;
+        margin-top: -2rem;
+        margin-bottom: 20px;
+    }
+
+    #footer-part .end p{
+
+        font-size: 1.2rem;
+    }
+
+    /* footer part end */
+
+    
+}
+
+
+
+
+@media (min-width: 990px) and (max-width: 1140px) {
+
+    #header-part .logo img {
+        height: 20px;
+        width: 130px;
+        margin-left: 3rem;
+    }
+
+
+
+    .overlays {
+        width: 75.2rem;
+        height: 104px;
+        background: rgb(0, 0, 0, .5);
+        padding: 340px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    #slider-image .sliderimg {
+        width: 75.1rem;
+    }
+
+    #slider-image .desc {
+        position: absolute;
+        margin-top: 210px;
+        z-index: 999;
+        left: 2.8rem;
+    }
+
+
+
+
+
+    /* rent paryt start */
+
+    #rent-part {
+        height: 450px;
+        padding: 120px 0;
+        margin-top: -30px;
+        width: 75.2rem;
+        background: black;
+    }
+
+    #rent-part .details_img .details {
+        height: 10px;
+        width: 55%;
+        color: white;
+        margin-left: 2rem;
+    }
+
+
+    #rent-part .details_img .details p {
+        color: #999;
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        width: 556px;
+        letter-spacing: 1px;
+    }
+
+    #rent-part .details_img .image img {
+        height: 450px;
+        width: 450px;
+        border-radius: 20px;
+        margin-left: 3px;
+        transition: .5s;
+    }
+
+    #rent-part .details_img .image .btn {
+        height: 100px;
+        width: 100px;
+        background: #000;
+        position: relative;
+        margin-top: -94px;
+        margin-left: -7px;
+        border-top-right-radius: 20px;
+    }
+
+    /* rent paryt end */
+
+
+
+
+
+    /* service part start */
+
+    #service-part {
+        height: 50px;
+        width: 75.2rem;
+        background: #000;
+        height: 650px;
+        position: relative;
+        margin-top: -2px;
+    }
+
+/* 
+    #service-part .sliding-img{
+
+        margin-left: 1.2rem;
+    } */
+
+
+    /* service part end */
+
+
+    /* booking rent start */
+
+    #booking_rent {
+        background: url(../images/10041.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 75.2rem;
+        height: 700px;
+        background-attachment: fixed;
+        margin-top: -2px;
+    }
+
+
+    #booking_rent .overlay .booking_item .items .two{
+
+    margin-left: 2.5rem;
+
+    }
+
+    #booking_rent .overlay .booking_item .items .leftt {
+        margin-left: 1rem;
+    }
+
+    #booking_rent .overlay .booking_item .items .mid {
+        margin-left: -2rem;
+    }
+
+    #booking_rent .overlay .booking_item .items .sthree {
+        margin-left: 1.9rem;
+    }
+
+
+
+    #booking_rent .overlay .booking_item .items .sfour {
+        margin-left: 0.7rem;
+    }
+
+    #booking_rent .overlay .booking_item .items .right {
+        margin-left: -6rem;
+    }
+
+
+
+    /* booking rent end */
+
+
+
+
+    /* luxury car start */
+
+    #luxr_car {
+        height: 600px;
+        width: 75.2rem;
+        padding-bottom: 150px;
+        background: #000;
+    }
+
+
+    /* luxury car end */
+
+
+
+
+    /* categories part start */
+
+    #service-part_two {
+        height: 50px;
+        width: 75.2rem;
+        background: #000;
+        height: 650px;
+        position: relative;
+        margin-top: -2px;
+    }
+
+
+    /* categories part end */
+
+
+
+
+    /* rent process part start */
+
+    .rent-process {
+        height: 100px;
+        width: 100%;
+        padding-top: 100px;
+        height: 650px;
+        width: 75.2rem;
+        background: #000;
+        margin-top: -2px;
+    }
+
+
+    .rent-process .loc .one p {
+        color: #999;
+        font-size: 16px;
+        width: 286px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        padding-right: 19px;
+    }
+
+    .rent-process .loc .one{
+
+        position: relative;
+    }
+
+
+    .rent-process .loc .one .btone {
+        background: #000;
+        display: inline-block;
+        padding: 20px 20px;
+        padding-bottom: 2px;
+        position: absolute;
+        top: 66%;
+        left: -3%;
+        border-top-right-radius: 40px;
+    }
+
+    /* rent process part end */
+
+
+    /* client part start */
+
+    .client {
+        height: 100px;
+        width: 100%;
+        height: 600px;
+        padding-top: 40px;
+        width: 75.2rem;
+        background: #000;
+    }
+
+    /* client part end */
+
+
+
+    /* letest news start */
+
+    .letest-part {
+        height: 50px;
+        width: 75.2rem;
+        background: #000;
+        height: 750px;
+        position: relative;
+        margin-top: -2px;
+    }
+
+
+    /* letest news end */
+
+
+
+    /* interesr part start */
+
+    .interest_part {
+        background: url(../images/10042.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 75.2rem;
+        height: 700px;
+        background-attachment: fixed;
+    }
+
+
+    /* interesr part end */
+
+
+
+    /* logo part start */
+
+    #logo_part .lower {
+        height: 120px;
+        width: 75.2rem;
+        background: #222;
+        margin-top: -100px;
+    }
+
+
+    /* logo part end */
+
+
+
+
+    /* contact part start */
+
+    .contact {
+        height: 100px;
+        width: 75.2rem;
+        background: #000;
+        padding: 100px 0;
+    }
+
+
+    /* contact part end */
+
+
+
+    /* footer part start */
+
+    #footer-part {
+        height: 350px;
+        width: 75.2rem;
+        background: #000;
+        margin-top: -2px;
+    }
+
+
+
+
+    /* footer part end */
+
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
